@@ -1,0 +1,14 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.input-field > label {
+    color: #ffffff !important
+}
+
+.input-field :focus + label {
+    color: #ffffff !important
+}
+
+.input-field:focus {
+    border-bottom: 1px solid #ffeb3b !important;
+    box-shadow: 0 1px 0 0 #ffeb3b !important;
+}

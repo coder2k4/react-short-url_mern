@@ -1,0 +1,34 @@
+{
+  "name": "mern-course",
+  "version": "1.0.0",
+  "description": "M.E.R.N.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "mongodb",
+    "node.js",
+    "express"
+  ],
+  "author": "Alexey Glazyrin <standalone@gas.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.2",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "mongoURI": "mongodb+srv://alexey:qwertyzaq123@cluster0-ayokz.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "gas front end developer 2k20",
+  "baseUrl" : "http://localhost:5000"
+}
